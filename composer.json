@@ -14,8 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-	          "Behat\\Behat\\":    					"behat/src/",
-            "Behat\\Testwork\\": 					"behat/src/",
+	          "Behat\\Behat\\":    					"behat/Behat/src/",
+            "Behat\\Testwork\\": 					"behat/Testwork/src/",
 						"Behat\\Symfony2Extension\\": "symfony2-extension/src/",
             "Behat\\Gherkin\\":  					"gherin/src/",
 						"Behat\\MinkExtension\\": 		"mink-extension/src/",
