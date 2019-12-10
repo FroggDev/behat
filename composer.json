@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Behat\\Behat":    					"behat/src/",
-            "Behat\\Testwork": 					"behat/src/",
-            "Behat\\Gherkin":  					"gherin/src/",
-            "Behat\\Mink":     					"mink/src/",
-            "Behat\\Mink\\Driver": 			"mink-browserkit-driver/src/",
-						"Behat\\MinkExtension": 		"mink-extension/src/",
-						"Behat\\Mink\\Driver": 			"mink-goutte-driver/src/",
-						"Behat\\Mink\\Driver": 			"mink-selenium2-driver/src/",
-						"Behat\\Symfony2Extension": "symfony2-extension/src/",			
-						"Behat\\Tests\\Transliterator": "transliterator/tests"
+            "Behat\\Behat\\":    					"behat/src/",
+            "Behat\\Testwork\\": 					"behat/src/",
+            "Behat\\Gherkin\\":  					"gherin/src/",
+            "Behat\\Mink\\":     					"mink/src/",
+            "Behat\\Mink\\Driver\\": 			"mink-browserkit-driver/src/",
+						"Behat\\MinkExtension\\": 		"mink-extension/src/",
+						"Behat\\Mink\\Driver\\": 			"mink-goutte-driver/src/",
+						"Behat\\Mink\\Driver\\": 			"mink-selenium2-driver/src/",
+						"Behat\\Symfony2Extension\\": "symfony2-extension/src/",			
+						"Behat\\Tests\\Transliterator\\": "transliterator/tests"
         }
     },
     "extra": {
