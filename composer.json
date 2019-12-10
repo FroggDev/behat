@@ -13,17 +13,15 @@
         "php": ">=7.1.3"
     },
     "autoload": {
-        "psr-0": {
-            "Behat\\Behat":    					"behat/src/",
-            "Behat\\Testwork": 					"behat/src/",
-						"Behat\\Symfony2Extension": "symfony2-extension/src/",
-            "Behat\\Gherkin":  					"gherin/src/",
-						"Behat\\MinkExtension": 		"mink-extension/src/",
-						"Behat\\Tests\\Transliterator": "transliterator/tests"						
-				},
         "psr-4": {
-            "Behat\\Mink\\":     					"mink/src/",
-						"Behat\\Mink\\Driver\\": 			"mink-drivers/src/",
+	          "Behat\\Behat\\":    					"behat/src/",
+            "Behat\\Testwork\\": 					"behat/src/",
+						"Behat\\Symfony2Extension\\": "symfony2-extension/src/",
+            "Behat\\Gherkin\\":  					"gherin/src/",
+						"Behat\\MinkExtension\\": 		"mink-extension/src/",
+						"Behat\\Tests\\Transliterator\\": "transliterator/tests",	
+            "Behat\\Mink\\":     				"mink/src/",
+						"Behat\\Mink\\Driver\\": 		"mink-drivers/src/",
             "emuse\\BehatHTMLFormatter\\":"behat-html-formatter/src/"
         }
     },
