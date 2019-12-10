@@ -23,7 +23,7 @@
 				},
         "psr-4": {
             "Behat\\Mink\\":     					"mink/src/",
-						"Behat\\Mink\\Driver\\": 			"mink-drivers/src/"
+						"Behat\\Mink\\Driver\\": 			"mink-drivers/src/",
             "emuse\\BehatHTMLFormatter\\":"behat-html-formatter/src/"
         }
     },
