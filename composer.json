@@ -17,7 +17,7 @@
 	          "Behat\\Behat\\":    					"behat/Behat/src/",
             "Behat\\Testwork\\": 					"behat/Testwork/src/",
 						"Behat\\Symfony2Extension\\": "symfony2-extension/src/",
-            "Behat\\Gherkin\\":  					"gherin/src/",
+            "Behat\\Gherkin\\":  					"gherkin/src/",
 						"Behat\\MinkExtension\\": 		"mink-extension/src/",
 						"Behat\\Tests\\Transliterator\\": "transliterator/tests",	
             "Behat\\Mink\\":     				"mink/src/",
