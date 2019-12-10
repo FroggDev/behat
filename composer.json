@@ -22,11 +22,9 @@
 						"Behat\\Tests\\Transliterator": "transliterator/tests"						
 				},
         "psr-4": {
-
             "Behat\\Mink\\":     					"mink/src/",
-            "Behat\\Mink\\Driver\\": 			"mink-browserkit-driver/src/",
-						"Behat\\Mink\\Driver\\": 			"mink-goutte-driver/src/",
-						"Behat\\Mink\\Driver\\": 			"mink-selenium2-driver/src/"
+						"Behat\\Mink\\Driver\\": 			"mink-drivers/src/"
+            "emuse\\BehatHTMLFormatter\\":"behat-html-formatter/src/"
         }
     },
     "extra": {
